@@ -13,7 +13,7 @@ public class AccountPageTest extends BaseTest {
 
 	@BeforeClass
 	public void accPageSetup() {
-		accPage = login.doLogin("Testselenium89@gmail.com", "qwerty");
+		accPage = login.doLogin("vatschetanya@gmail.com", "Kaps@2027");
 	}
 
 	@Test
