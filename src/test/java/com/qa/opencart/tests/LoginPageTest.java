@@ -8,7 +8,7 @@ import com.qa.opencart.constants.AppConstants;
 
 public class LoginPageTest extends BaseTest {
 
-	@Test(priority = -13434)
+	@Test(priority = 0)
 	public void loginPageTitle() {
 
 		String actualTitle = login.getLoginPageTitle();
