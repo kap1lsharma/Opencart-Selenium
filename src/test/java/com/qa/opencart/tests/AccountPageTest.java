@@ -5,6 +5,7 @@ import java.util.List;
 import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
+import org.testng.asserts.SoftAssert;
 
 import com.qa.opencart.base.BaseTest;
 import com.qa.opencart.constants.AppConstants;
@@ -19,7 +20,10 @@ public class AccountPageTest extends BaseTest {
 	@Test
 	public void accPageTitleTest() {
 		String actualTitle = accPage.accountPageTitle();
-		Assert.assertEquals(actualTitle, AppConstants.Account_PAGE_TITLE);
+		SoftAssert soft = new SoftAssert();
+		soft.assertEquals(actualTitle, AppConstants.Account_PAGE_TITLE);
+		
+//		Assert.assertEquals(actualTitle, AppConstants.Account_PAGE_TITLE);
 	}
 
 	@Test

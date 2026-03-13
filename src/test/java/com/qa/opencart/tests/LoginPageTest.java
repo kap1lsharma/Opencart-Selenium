@@ -13,10 +13,12 @@ public class LoginPageTest extends BaseTest {
 
 		String actualTitle = login.getLoginPageTitle();
 		Assert.assertEquals(actualTitle, AppConstants.LOGIN_PAGE_TITLE);
+		
+		
 
 	}
 
-	@Test(priority = 1)
+	@Test(priority = 1, dependsOnMethods = "loginPageTitle")
 	public void loginPageURL() {
 
 		String Actualurl = login.getCurrentURL();
