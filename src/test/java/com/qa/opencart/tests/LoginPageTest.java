@@ -8,15 +8,17 @@ import com.qa.opencart.constants.AppConstants;
 
 public class LoginPageTest extends BaseTest {
 
-	@Test(priority = -13434)
+	@Test(priority = 0)
 	public void loginPageTitle() {
 
 		String actualTitle = login.getLoginPageTitle();
 		Assert.assertEquals(actualTitle, AppConstants.LOGIN_PAGE_TITLE);
+		
+		
 
 	}
 
-	@Test(priority = 1)
+	@Test(priority = 1, dependsOnMethods = "loginPageTitle")
 	public void loginPageURL() {
 
 		String Actualurl = login.getCurrentURL();

@@ -2,36 +2,40 @@
 <testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-03-10T17:23:34 IST" name="Default suite" finished-at="2026-03-10T17:23:39 IST" duration-ms="5118">
+  <suite started-at="2026-03-13T23:57:01 IST" name="Default suite" finished-at="2026-03-13T23:57:14 IST" duration-ms="12886">
     <groups>
     </groups>
-    <test started-at="2026-03-10T17:23:34 IST" name="Default test" finished-at="2026-03-10T17:23:39 IST" duration-ms="5118">
-      <class name="com.qa.opencart.tests.LoginPageTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.opencart.tests.LoginPageTest@1a451d4d]" started-at="2026-03-10T17:23:34 IST" name="setup" finished-at="2026-03-10T17:23:37 IST" duration-ms="3069" status="PASS">
+    <test started-at="2026-03-13T23:57:01 IST" name="Default test" finished-at="2026-03-13T23:57:14 IST" duration-ms="12886">
+      <class name="com.qa.opencart.tests.AccountPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.opencart.tests.AccountPageTest@6e20b53a]" started-at="2026-03-13T23:57:01 IST" name="setup" finished-at="2026-03-13T23:57:07 IST" duration-ms="6217" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="loginPageTitle()[pri:-13434, instance:com.qa.opencart.tests.LoginPageTest@1a451d4d]" started-at="2026-03-10T17:23:37 IST" name="loginPageTitle" finished-at="2026-03-10T17:23:38 IST" duration-ms="788" status="PASS">
+        <test-method is-config="true" signature="accPageSetup()[pri:0, instance:com.qa.opencart.tests.AccountPageTest@6e20b53a]" started-at="2026-03-13T23:57:07 IST" name="accPageSetup" finished-at="2026-03-13T23:57:07 IST" duration-ms="376" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginPageTitle -->
-        <test-method signature="loginPageURL()[pri:1, instance:com.qa.opencart.tests.LoginPageTest@1a451d4d]" started-at="2026-03-10T17:23:38 IST" name="loginPageURL" finished-at="2026-03-10T17:23:38 IST" duration-ms="10" status="PASS">
+        </test-method> <!-- accPageSetup -->
+        <test-method signature="accPageHeaderTest()[pri:0, instance:com.qa.opencart.tests.AccountPageTest@6e20b53a]" started-at="2026-03-13T23:57:07 IST" name="accPageHeaderTest" finished-at="2026-03-13T23:57:08 IST" duration-ms="975" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginPageURL -->
-        <test-method signature="isForgotPwdLinkDisplayed()[pri:2, instance:com.qa.opencart.tests.LoginPageTest@1a451d4d]" started-at="2026-03-10T17:23:38 IST" name="isForgotPwdLinkDisplayed" finished-at="2026-03-10T17:23:38 IST" duration-ms="26" status="PASS">
+        </test-method> <!-- accPageHeaderTest -->
+        <test-method signature="accPageHeadersList()[pri:0, instance:com.qa.opencart.tests.AccountPageTest@6e20b53a]" started-at="2026-03-13T23:57:08 IST" name="accPageHeadersList" finished-at="2026-03-13T23:57:08 IST" duration-ms="62" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- isForgotPwdLinkDisplayed -->
-        <test-method signature="LoginTest()[pri:3, instance:com.qa.opencart.tests.LoginPageTest@1a451d4d]" started-at="2026-03-10T17:23:38 IST" name="LoginTest" finished-at="2026-03-10T17:23:39 IST" duration-ms="751" status="PASS">
+        </test-method> <!-- accPageHeadersList -->
+        <test-method signature="accPageTitleTest()[pri:0, instance:com.qa.opencart.tests.AccountPageTest@6e20b53a]" started-at="2026-03-13T23:57:08 IST" name="accPageTitleTest" finished-at="2026-03-13T23:57:14 IST" duration-ms="5132" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- LoginTest -->
-        <test-method signature="logoutFromAccountPageTest()[pri:4, instance:com.qa.opencart.tests.LoginPageTest@1a451d4d]" started-at="2026-03-10T17:23:39 IST" name="logoutFromAccountPageTest" finished-at="2026-03-10T17:23:39 IST" duration-ms="440" status="PASS">
+        </test-method> <!-- accPageTitleTest -->
+        <test-method signature="logoutLinkExistsTest()[pri:0, instance:com.qa.opencart.tests.AccountPageTest@6e20b53a]" started-at="2026-03-13T23:57:14 IST" name="logoutLinkExistsTest" finished-at="2026-03-13T23:57:14 IST" duration-ms="37" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- logoutFromAccountPageTest -->
-      </class> <!-- com.qa.opencart.tests.LoginPageTest -->
+        </test-method> <!-- logoutLinkExistsTest -->
+        <test-method signature="searchText()[pri:0, instance:com.qa.opencart.tests.AccountPageTest@6e20b53a]" started-at="2026-03-13T23:57:14 IST" name="searchText" finished-at="2026-03-13T23:57:14 IST" duration-ms="54" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchText -->
+      </class> <!-- com.qa.opencart.tests.AccountPageTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -7,7 +7,7 @@ public class AppConstants {
 
 	public static final String LOGIN_PAGE_TITLE = "Account Login";
 	public static final String LOGIN_PAGE_URL_FRACTION = "route=account/login";
-	public static final String Account_PAGE_TITLE = "My Account";
+	public static final String Account_PAGE_TITLE = "My Accounts";
 	public static final int Account_PAGE_HEADERS_COUNT = 4;
 
 	public static final List<String> EXPECTED_ACCOUNT_HEADERS_LIST = Arrays.asList("My Account", "My Orders",
